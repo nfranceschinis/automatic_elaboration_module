@@ -1,8 +1,8 @@
 SHELL=/bin/sh #Shell da utilizzare per l'esecuzione dei comandi
 
-CC=gcc #Compilatore da utilizzare
+CC=g++ #Compilatore da utilizzare
 
-SRCS=gem_main.c #File sorgente
+SRCS=gem_main.cpp #File sorgente
 
 elaboration_module: $(SRCS)
 	$(CC)-o $@ $<
